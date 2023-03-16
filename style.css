@@ -1,0 +1,23 @@
+/* body {
+  background-color: #5a236c;
+  background-image: linear-gradient(to bottom right, #392270, #e9275b);
+} */
+
+.sketch-container {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  font-size: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.square {
+  display: inline-block;
+  border: 1px solid rgb(172, 170, 170);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
