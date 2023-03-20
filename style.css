@@ -1,23 +1,35 @@
-/* body {
-  background-color: #5a236c;
-  background-image: linear-gradient(to bottom right, #392270, #e9275b);
-} */
-
+body {
+  background: linear-gradient(to bottom, #87e14f 0%, #8ee8c8 100%) no-repeat
+    fixed 0 0 transparent;
+  height: 100%;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 .sketch-container {
+  display: inline-block;
   width: 600px;
   height: 600px;
   margin: auto;
   font-size: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.main {
+.main,
+header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 16px;
 }
 
 .square {
   display: inline-block;
-  border: 1px solid rgb(172, 170, 170);
+  border: 0.5px solid rgba(233, 233, 233, 0.718);
   box-sizing: border-box;
-  border-radius: 3px;
+}
+
+h1 {
+  margin-bottom: 0px;
 }
